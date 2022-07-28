@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+};
+
+.ground{
+    width: 1920px;
+    height: 900px; 
+}
+
+.sungtt{ float: left;}
+.robot{ float: right;}
+
+.sungtt img{
+    width: 900px;
+    height: 900px;
+}
+.robot img {
+    width: 900px;
+    height: 900px;
+}
+
+.btnBox{
+    width: 320px;
+    padding-left: 60px;
+    user-select: none;
+}
+
+.btnBox button{
+    width: 100px;
+    height: 30px;
+}
+
+.resultBox{
+    display: none;
+    width: 200px;
+    height: 120px;
+    position : fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    text-align: center;
+}
+
+.resultBox h4 {
+    padding-top: 15px;
+}
